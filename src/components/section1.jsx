@@ -45,8 +45,8 @@ function Section1() {
                 <div className='signup bg-Yellow w-[94px] rounded-[999px] text-center h-[44px] shadow-[0px_1px_2px_0px_#101828] cursor-pointer flex justify-center'><a className='self-center'>Sign up</a></div>
                 <div className='text-grNavbtn cursor-pointer'>
                 <SuprSendInbox
-  workspaceKey= "SS.WSS.EEU1YFrLJBz5-ZadY53j-hSzaK6YPuXEvlK8uOFC"
-  subscriberId= "SS.WSS.EEU1YFrLJBz5-ZadY53j-hSzaK6YPuXEvlK8uOFC"
+  workspaceKey= "qJ5osy6AUY6xkRaz3tGA"
+  subscriberId= "airOM0W1XC3K-D4MTfrdR025TeDhC_lcwsUE8FdrJ0o"
   distinctId= "sample-react-vercell-hmac"
   />
                 </div>
