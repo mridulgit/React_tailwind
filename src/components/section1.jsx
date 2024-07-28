@@ -9,7 +9,8 @@ import icon1 from '../styles/image 2.png'
 import icon2 from '../styles/image 20.png'
 import icon3 from '../styles/image 29.png'
 import icon4 from '../styles/image 13.png'
-
+import SuprSendInbox from '@suprsend/react-inbox'
+import 'react-toastify/dist/ReactToastify.css' // needed for toast notifications, can be ignored if hideToast=true
 
 function Section1() {
   const category = [
@@ -42,6 +43,13 @@ function Section1() {
             <a className='self-center text-grNavbtn cursor-pointer whitespace-nowrap'>Contact us</a>
             <div className='flex self-center flex-row-reverse gap-[30px] w-full p-[25px]'>               
                 <div className='signup bg-Yellow w-[94px] rounded-[999px] text-center h-[44px] shadow-[0px_1px_2px_0px_#101828] cursor-pointer flex justify-center'><a className='self-center'>Sign up</a></div>
+                <div className='text-grNavbtn cursor-pointer'>
+                <SuprSendInbox
+  workspaceKey= "SS.WSS.EEU1YFrLJBz5-ZadY53j-hSzaK6YPuXEvlK8uOFC"
+  subscriberId= "SS.WSS.EEU1YFrLJBz5-ZadY53j-hSzaK6YPuXEvlK8uOFC"
+  distinctId= "sample-react-vercell-hmac"
+  />
+                </div>
                 <div className='login text-grNavbtn cursor-pointer'><a>Log In</a></div>
             </div>
          
