@@ -46,7 +46,7 @@ function Section1() {
                 <div className='text-grNavbtn cursor-pointer'>
                 <SuprSendInbox
   workspaceKey= "qJ5osy6AUY6xkRaz3tGA"
-  subscriberId= "airOM0W1XC3K-D4MTfrdR025TeDhC_lcwsUE8FdrJ0o"
+  subscriberId= "tOObl06r59CHvrVQVG3CCCSoq9hqpvNYFr4QldHfYdE"
   distinctId= "sample-react-vercell-hmac"
   />
                 </div>
